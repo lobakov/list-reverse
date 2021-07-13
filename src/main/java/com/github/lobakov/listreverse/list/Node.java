@@ -5,8 +5,8 @@ class Node<E> {
     private E value;
     private Node<E> next;
 
-    Node(E element, Node<E> next) {
-        this.value = element;
+    Node(E value, Node<E> next) {
+        this.value = value;
         this.next = next;
     }
 
